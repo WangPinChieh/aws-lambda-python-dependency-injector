@@ -15,4 +15,4 @@ def lambda_handler(event, context, instanceFacctory: FetcherFactory = Provide[Co
 
 container = Container()
 container.wire(modules=[__name__])
-lambda_handler({'name': 'w3schools'}, None)
+# lambda_handler({'name': 'w3schools'}, None)
