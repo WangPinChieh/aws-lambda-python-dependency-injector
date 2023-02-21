@@ -1,5 +1,6 @@
 from dependency_injector import containers, providers
-from services import FetcherFactory, ApiFetcher, DifferentApiFetcher
+from services import ApiFetcher, DifferentApiFetcher
+from factories import FetcherFactory
 class Container(containers.DeclarativeContainer):
     # print('in Container class')
     config = providers.Configuration()
